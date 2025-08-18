@@ -1,6 +1,6 @@
 module.exports = {
   tutorialSidebar: {
-    Introduction: ["intro", "brand-guidelines"],
+    Introduction: ["intro", "tech-stack-overview"],
     "Open Source": ["license", "contribution-guidelines", "code-of-conduct"],
     "Developer Guide": [
       "getting-started-developer",
