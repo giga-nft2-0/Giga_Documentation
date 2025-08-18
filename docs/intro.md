@@ -4,17 +4,17 @@ id: intro
 ---
 
 
-## 🚀 Welcome to the Giga Blocks Developer Documentation
+# Welcome to the Giga Blocks Developer Documentation
 
 Welcome to the official developer guide for **Giga Blocks** — the decentralized school directory platform. This documentation is your starting point for understanding, contributing to, and building on Giga Blocks, a project developed in partnership with UNICEF’s **Giga initiative**.
 
 ---
 
-### 🌍 What is Giga Blocks?
+## 🌍 What is Giga Blocks?
 
 **Giga Blocks** is the world’s most transparent and accessible registry of school data, leveraging blockchain technology for data immutability and permanence.
 
-#### Key Features
+## Key Features
 
 - **Authoritative Data Source:**  
   School data is ingested from the official **Giga Maps API**, combining:
@@ -35,7 +35,7 @@ Welcome to the official developer guide for **Giga Blocks** — the decentralize
 
 ---
 
-### 💡 Why Giga Blocks?
+## 💡 Why Giga Blocks?
 
 Giga Blocks is more than a directory — it’s a participatory Web3 movement. By combining open data, blockchain infrastructure, and public contribution, every school profile becomes a living digital asset. This approach raises awareness and supports the global mission to connect every school to the internet.
 
