@@ -7,7 +7,6 @@ id: tech-stack-overview
 
 All Giga Blocks components are built on a modern, modular technology stack designed for scalability, interoperability, and seamless blockchain integration.
 
----
 
 ## Database
 
@@ -15,7 +14,6 @@ All Giga Blocks components are built on a modern, modular technology stack desig
   The primary relational database, chosen for its reliability and scalability.  
   Managed via **Prisma ORM** for type-safe schema management and efficient queries.
 
----
 
 ## Frontend (UI/UX)
 
@@ -30,7 +28,6 @@ All Giga Blocks components are built on a modern, modular technology stack desig
 - **CSS / JavaScript / TypeScript**  
   Ensures robust styling, interactivity, and type safety across the frontend.
 
----
 
 ## Backend (API & Server)
 
@@ -41,8 +38,6 @@ All Giga Blocks components are built on a modern, modular technology stack desig
 - **Python**  
   Used for supporting cron jobs and data ingestion scripts, such as syncing with the Giga Maps API.
 
----
-
 ## Blockchain Layer
 
 - **Solidity**  
@@ -52,15 +47,12 @@ All Giga Blocks components are built on a modern, modular technology stack desig
 - **EVM Compatibility**  
   Ensures seamless support for all Ethereum-compatible wallets and tools.
 
----
-
 ## Wallets
 
 - **EVM-Based Wallets**  
   (e.g., MetaMask, Privado Wallet, WalletConnect)  
   Enable user activation, NFT minting, and contributor recognition through secure wallet connections.
 
----
 
 ## Third-Party Services
 
@@ -71,6 +63,5 @@ All Giga Blocks components are built on a modern, modular technology stack desig
 - **Pinata / Arweave** (optional extensions)  
   Used for decentralized storage of NFT metadata and artwork.
 
----
 
 This integrated stack empowers Giga Blocks to deliver a secure, scalable, and user-friendly decentralized platform for the global school directory initiative.
