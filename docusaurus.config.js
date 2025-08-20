@@ -36,7 +36,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/esatya?tab=repositories",
+          editUrl: "https://github.com/giga-nft2-0/Giga_Documentation/edit/main/",
         },
         blog: {
           path: "blog",
