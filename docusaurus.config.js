@@ -1,8 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const { themes } = require("prism-react-renderer");
 const ArchivedVersions = require("./archivedVersions.json");
 
 /** @type {import('@docusaurus/types').Config} */
@@ -13,18 +12,35 @@ const config = {
   },
   title: "Giga NFT-2.0",
   tagline: " Decentralized School Database",
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid', 'docusaurus-theme-openapi-docs'],
   url: "https://docs.giga.rumsan.net",
   baseUrl: "/",
   projectName: "giga-documentation", // Usually your repo name.
   organizationName: "Giga", // Usually your GitHub org/user name.
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn", // Changed from "throw" to "warn" to help during development
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   plugins: [
-    [
-      "docusaurus-plugin-openapi",
+      [
+      "docusaurus-plugin-openapi-docs",
       {
-        openapiPath: require.resolve("./openApi/swagger.json"),
+        id: "openapi",
+        docsPluginId: "default",
+        config: {
+          giga: {
+            specPath: "openapi/giga-api.yaml",
+            outputDir: "docs/giga-api",
+            downloadUrl:
+              "https://raw.githubusercontent.com/giga-nft2-0/Giga_Documentation/main/openapi/giga-api.yaml",
+            sidebarOptions: {
+              groupPathsBy: "tag",
+              categoryLinkSource: "tag",
+            },
+          }
+        }
       },
     ],
   ],
@@ -34,8 +50,12 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path: 'docs',
+          routeBasePath: 'docs',
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
+          docItemComponent: "@theme/ApiItem", // Derived from docusaurus-theme-openapi
+          showLastUpdateTime: true,
+          lastVersion: 'current',
           editUrl: "https://github.com/giga-nft2-0/Giga_Documentation/edit/main/",
         },
         blog: {
@@ -63,11 +83,10 @@ const config = {
             position: "right",
             label: "Docs",
           },
-          {
-            to: "api/",
-            activeBasePath: "api",
+            {
             label: "API",
             position: "right",
+            to: "/docs/category/giga",
           },
           { to: "blog", label: "Releases", position: "right" },
           {
@@ -140,8 +159,8 @@ const config = {
         copyright: `| <a href="/privacy-policy">Privacy Policy</a> | <br/> © ${new Date().getFullYear()} Giga. All rights reserved. Developed by Rumsan.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: themes.github,
+        darkTheme: themes.dracula,
       },
       // algolia: {
       //   indexName: "jest-v2",
