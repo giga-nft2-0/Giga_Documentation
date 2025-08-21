@@ -1,8 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const { themes } = require("prism-react-renderer");
 const ArchivedVersions = require("./archivedVersions.json");
 
 /** @type {import('@docusaurus/types').Config} */
@@ -13,6 +12,7 @@ const config = {
   },
   title: "Giga NFT-2.0",
   tagline: " Decentralized School Database",
+  themes: ['@docusaurus/theme-mermaid', 'docusaurus-theme-openapi-docs'],
   url: "https://docs.giga.rumsan.net",
   baseUrl: "/",
   projectName: "giga-documentation", // Usually your repo name.
@@ -21,10 +21,23 @@ const config = {
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   plugins: [
-    [
-      "docusaurus-plugin-openapi",
+      [
+      "docusaurus-plugin-openapi-docs",
       {
-        openapiPath: require.resolve("./openApi/swagger.json"),
+        id: "openapi",
+        docsPluginId: "default",
+        config: {
+          giga: {
+            specPath: "openapi/giga-api.yaml",
+            outputDir: "docs/giga-api",
+            downloadUrl:
+              "https://raw.githubusercontent.com/giga-nft2-0/Giga_Documentation/main/openapi/giga-api.yaml",
+            sidebarOptions: {
+              groupPathsBy: "tag",
+              categoryLinkSource: "tag",
+            },
+          }
+        }
       },
     ],
   ],
@@ -63,11 +76,10 @@ const config = {
             position: "right",
             label: "Docs",
           },
-          {
-            to: "api/",
-            activeBasePath: "api",
+            {
             label: "API",
             position: "right",
+            to: "/docs/category/giga",
           },
           { to: "blog", label: "Releases", position: "right" },
           {
@@ -140,8 +152,8 @@ const config = {
         copyright: `| <a href="/privacy-policy">Privacy Policy</a> | <br/> © ${new Date().getFullYear()} Giga. All rights reserved. Developed by Rumsan.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: themes.github,
+        darkTheme: themes.dracula,
       },
       // algolia: {
       //   indexName: "jest-v2",
