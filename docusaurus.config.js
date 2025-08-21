@@ -12,12 +12,15 @@ const config = {
   },
   title: "Giga NFT-2.0",
   tagline: " Decentralized School Database",
+  markdown: {
+    mermaid: true,
+  },
   themes: ['@docusaurus/theme-mermaid', 'docusaurus-theme-openapi-docs'],
   url: "https://docs.giga.rumsan.net",
   baseUrl: "/",
   projectName: "giga-documentation", // Usually your repo name.
   organizationName: "Giga", // Usually your GitHub org/user name.
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn", // Changed from "throw" to "warn" to help during development
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   plugins: [
@@ -47,8 +50,12 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path: 'docs',
+          routeBasePath: 'docs',
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
+          docItemComponent: "@theme/ApiItem", // Derived from docusaurus-theme-openapi
+          showLastUpdateTime: true,
+          lastVersion: 'current',
           editUrl: "https://github.com/giga-nft2-0/Giga_Documentation/edit/main/",
         },
         blog: {

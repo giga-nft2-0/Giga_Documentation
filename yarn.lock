@@ -3899,9 +3899,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001702, caniuse-lite@^1.0.30001735:
-  version "1.0.30001735"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001735.tgz#ba658fd3fd24a4106fd68d5ce472a2c251494dbe"
-  integrity sha512-EV/laoX7Wq2J9TQlyIXRxTJqIw4sxfXS4OYgudGxBYRuTv0q7AM6yMEpU/Vo1I94thg9U6EZ2NfZx9GJq83u7w==
+  version "1.0.30001736"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001736.tgz#3710a99cf154b653590fb6a57f81ee34173c3b47"
+  integrity sha512-ImpN5gLEY8gWeqfLUyEF4b7mYWcYoR2Si1VhnrbM4JizRFmfGaAQ12PhNykq6nvI4XvKLrsp8Xde74D5phJOSw==
 
 ccount@^2.0.0:
   version "2.0.1"
@@ -5149,7 +5149,7 @@ dns-packet@^5.2.2:
   dependencies:
     "@leichtgewicht/ip-codec" "^2.0.1"
 
-docusaurus-plugin-openapi-docs@^4.5.1:
+docusaurus-plugin-openapi-docs@4.5.1:
   version "4.5.1"
   resolved "https://registry.yarnpkg.com/docusaurus-plugin-openapi-docs/-/docusaurus-plugin-openapi-docs-4.5.1.tgz#b1133b0e03e284a6ade47fa2c3fcf5eab8ec6911"
   integrity sha512-3I6Sjz19D/eM86a24/nVkYfqNkl/zuXSP04XVo7qm/vlPeCpHVM4li2DLj7PzElr6dlS9RbaS4HVIQhEOPGBRQ==
@@ -5170,7 +5170,7 @@ docusaurus-plugin-openapi-docs@^4.5.1:
     swagger2openapi "^7.0.8"
     xml-formatter "^2.6.1"
 
-docusaurus-theme-openapi-docs@^4.5.1:
+docusaurus-theme-openapi-docs@4.5.1:
   version "4.5.1"
   resolved "https://registry.yarnpkg.com/docusaurus-theme-openapi-docs/-/docusaurus-theme-openapi-docs-4.5.1.tgz#861b402343de889098e6e8e299c5eab250e97b16"
   integrity sha512-C7mYh9JC3l9jjRtqJVu0EIyOgxHB08jE0Tp5NSkNkrrBak4A13SrXCisNjvt1eaNjS+tsz7qD0bT3aI5hsRvWA==
