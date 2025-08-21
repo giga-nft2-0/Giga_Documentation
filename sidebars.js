@@ -9,4 +9,18 @@ module.exports = {
     "Community": ["contribution-guidelines", "code-of-conduct"],
   },
   apiSidebar: [],
+  openApiSidebar: [
+    {
+      type: "category",
+      label: "Giga",
+      link: {
+        type: "generated-index",
+        title: "Giga API",
+        description:
+          "Giga API documentation for all available endpoints and operations.",
+        slug: "/category/giga"
+      },
+      items: require("./docs/giga-api/sidebar.ts")
+    }
+  ]
 };
