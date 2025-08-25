@@ -20,7 +20,7 @@ module.exports = {
           "Giga API documentation for all available endpoints and operations.",
         slug: "/category/giga"
       },
-      items: require("./docs/giga-api/sidebar.ts")
+      items: require("./docs/giga-api/sidebar.ts").default
     }
   ]
 };
