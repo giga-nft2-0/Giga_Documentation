@@ -83,7 +83,7 @@ const config = {
       navbar: {
         logo: {
           alt: "Giga Logo",
-          src: "https://giga.global/nft-2-0-the-worlds-largest-decentralized-school-database/",
+          src: "img/giga-blocks.png",
         },
         items: [
           {
