@@ -3,26 +3,52 @@ sidebar_position: 1
 id: intro
 ---
 
-# NFT 2.0 - Decentralized School Database Platform
 
-## Introduction
+# Welcome to the Giga Blocks Developer Documentation
 
-The NFT 2.0 project represents a transformative approach to harnessing the collective power of the global community to crowd-source data collection, validation and data updating for schools and in the process creating the largest decentralized school database using NFTs.
+Welcome to the official developer guide for **Giga Blocks** — the decentralized school directory platform. This documentation is your starting point for understanding, contributing to, and building on Giga Blocks, a project developed in partnership with UNICEF’s **Giga initiative**.
 
-Giga NFT2.0 aims to solve this problem by crowdsourcing the collection and curation of this missing data and creating a comprehensive database of school information, comparable to a Wikipedia page for each school. By enabling the community surrounding each school to curate and update the data on the NFTs, Giga NFT2.0 hopes to gather accurate and up-to-date information on schools around the world. This will allow Giga to map the need for connectivity more granularly and will help Giga to more effectively connect schools to the internet and provide digital access to young people. Simultaneously, NFT2 will create a way for anyone to contribute data to schools, validate and update this data, and become a Giga Supporter.
+---
 
-## Project Objective
+## 🌍 What is Giga Blocks?
 
-- To use the data that's collected to help accelerate connectivity
-- To create a "digital passport" for every school in the world, using NFTs
-- To create a crowdsourcing mechanism for collecting missing school data
-- To engage the public and local communities in Giga countries in the cause of connecting schools to the internet
+**Giga Blocks** is the world’s most transparent and accessible registry of school data, leveraging blockchain technology for data immutability and permanence.
 
-![Giga System flow Diagram](/img/system_flow_diagram.png)
+## Key Features
 
-## Github Repositories of Giga NFT 2.0
+- **Authoritative Data Source:**  
+  School data is ingested from the official **Giga Maps API**, combining:
+  - **Real-time indicators:** Connectivity status, download/upload speeds, etc.
+  - **Static attributes:** Electricity availability, student/teacher counts, infrastructure metrics.
+
+- **School Activation:**  
+  Anyone can activate a school by paying a base blockchain fee. This action stores selected school metadata permanently on-chain.
+
+- **Generative NFT Creation:**  
+  Upon activation, a unique NFT artwork is generated (using p5.js), seeded by school-specific data. Users can personalize the NFT’s theme before minting.
+
+- **Inclusive Onboarding:**  
+  Sponsored activations allow users to support schools without direct payment. Users verify via email and later claim their NFT by connecting a wallet.
+
+- **Contributor Recognition:**  
+  Activators are publicly acknowledged on both the school profile page and their personal dashboard, reinforcing ownership and visibility.
+
+---
+
+## 💡 Why Giga Blocks?
+
+Giga Blocks is more than a directory — it’s a participatory Web3 movement. By combining open data, blockchain infrastructure, and public contribution, every school profile becomes a living digital asset. This approach raises awareness and supports the global mission to connect every school to the internet.
+
+---
+
+## 📦 Github Repositories of Giga NFT 2.0
 
 - [Giga NFT 2.0](https://github.com/giga-nft2-0/Giga_NFT_2.0)
 - [Giga NFT 2.0 - subgraph](https://github.com/giga-nft2-0/Giga_NFT_2.0-subgraph)
 - [Giga NFT 2.0 - contracts](https://github.com/giga-nft2-0/Giga_NFT_2.0-contracts)
 - [Giga NFT2.0 - documentation](https://github.com/giga-nft2-0/Giga_Documentation)
+
+---
+
+**Ready to get started?**  
+Explore the docs, contribute, and help us build a more connected world!
