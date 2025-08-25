@@ -55,7 +55,16 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           docItemComponent: "@theme/ApiItem", // Derived from docusaurus-theme-openapi
           showLastUpdateTime: true,
-          lastVersion: 'current',
+          lastVersion: '2.0',
+          versions: {
+            current: {
+              label: '2.1 (Next)',
+              path: 'next',
+            },
+            '2.0': {
+              label: '2.0',
+            },
+          },
           editUrl: "https://github.com/giga-nft2-0/Giga_Documentation/edit/main/",
         },
         blog: {
@@ -74,7 +83,7 @@ const config = {
       navbar: {
         logo: {
           alt: "Giga Logo",
-          src: "https://giga.global/nft-2-0-the-worlds-largest-decentralized-school-database/",
+          src: "img/giga-blocks.png",
         },
         items: [
           {
