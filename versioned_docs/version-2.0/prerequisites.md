@@ -15,8 +15,6 @@ Before you begin, ensure your development environment includes the following too
   npm install -g nx
   ```
 
----
-
 ## Local Setup
 
 ### 1. Clone the Repository
@@ -218,9 +216,7 @@ volumes:
 
 These commands create and apply database migrations based on your `schema.prisma` file, keeping your database schema in sync with your application models.
 
----
-
-## Arweave Local Configuration
+### 6. Arweave Local Configuration
 
 To set up and run a local Arweave node for development, use the `arlocal` tool:
 
@@ -235,7 +231,5 @@ To set up and run a local Arweave node for development, use the `arlocal` tool:
   ```
 - **Secure Wallet Data:**
   Do not commit `wallet.json` to GitHub. Instead, encode its contents and save it in your `.env` file as the `AREWAVE_CONFIG` value.
-
----
 
 You're now ready to proceed with local development!

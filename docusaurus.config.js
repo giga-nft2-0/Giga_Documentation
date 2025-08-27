@@ -56,15 +56,12 @@ const config = {
           docItemComponent: "@theme/ApiItem", // Derived from docusaurus-theme-openapi
           showLastUpdateTime: true,
           //showLastUpdateAuthor: true,
-          lastVersion: '2.0',
+          lastVersion: '1.0',
           versions: {
             current: {
               label: '2.1 (Next)',
               path: 'next',
-            },
-            '2.0': {
-              label: '2.0',
-            },
+            }
           },
           editUrl: "https://github.com/giga-nft2-0/Giga_Documentation/edit/main/",
         },

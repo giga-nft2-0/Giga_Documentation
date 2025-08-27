@@ -86,12 +86,10 @@ This section lists common issues developers may encounter while working with the
 
 ## Database & Blockchain Out of Sync
 
-Occasionally, database records may fall out of sync with blockchain data (e.g., after a failed backend process). To resolve this, use the provided backup sync script:
+When the database and blockchain data fall out of sync, it can cause inconsistencies in your application. We have a backup script to help resolve this.
 
-- The script:
-  - Fetches `schoolId` data directly from the Subgraph.
-  - Triggers image generation for any missing entries.
-  - Updates the school’s status to minted.
-  - Randomly assigns a theme from the backend.
+Script is located in `apps/api/src/utils/backupScripts/updateSchools.ts` of giga blocks repository.
 
-This ensures database and user-facing content remain up-to-date, even if an initial backend process fails after NFT minting.
+- The script works by fetching `schoolId` data directly from the subgraph. It then triggers the image generation process for any missing entries. This process automatically sets the school's status to _"minted"_ and randomly assigns a theme from the backend.
+
+- This script is a backup that helps ensure your database and user-facing content stay up-to-date, even if an initial backend process fails **after an NFT has already been minted.**
