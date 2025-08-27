@@ -36,10 +36,10 @@ Giga Blocks is more than a directory — it’s a participatory Web3 movement. B
 
 ## Github Repositories of Giga Blocks
 
-- [Giga Blocks](https://github.com/giga-nft2-0/Giga_NFT_2.0)
-- [Giga Blocks - subgraph](https://github.com/giga-nft2-0/Giga_NFT_2.0-subgraph)
-- [Giga Blocks - contracts](https://github.com/giga-nft2-0/Giga_NFT_2.0-contracts)
-- [Giga Blocks- documentation](https://github.com/giga-nft2-0/Giga_Documentation)
+- [Giga Blocks Backend](https://github.com/giga-nft2-0/Giga_NFT_2.0) *(Private Repository)*
+- [Giga Blocks Subgraph](https://github.com/giga-nft2-0/Giga_NFT_2.0-subgraph) *(Private Repository)*
+- [Giga Blocks Smart Contracts](https://github.com/giga-nft2-0/Giga_NFT_2.0-contracts) *(Private Repository)*
+- [Giga Blocks Documentation](https://github.com/giga-nft2-0/Giga_Documentation) *(Public Repository)*
 
 **Ready to get started?**  
 Explore the docs, contribute, and help us build a more connected world!
