@@ -58,9 +58,7 @@ All Giga Blocks components are built on a modern, modular technology stack desig
 
 - **Alchemy**  
   Provides reliable blockchain API access and event listening.
-- **Infura**  
-  Serves as a gateway for interacting with the Base network.
-- **Pinata / Arweave** (optional extensions)  
+- **Pinata / Arweave** 
   Used for decentralized storage of NFT metadata and artwork.
 
 
