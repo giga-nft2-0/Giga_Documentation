@@ -56,7 +56,7 @@ const config = {
           docItemComponent: "@theme/ApiItem", // Derived from docusaurus-theme-openapi
           showLastUpdateTime: true,
           //showLastUpdateAuthor: true,
-          lastVersion: '1.0',
+          lastVersion: '2.0',
           versions: {
             current: {
               label: '2.1 (Next)',
