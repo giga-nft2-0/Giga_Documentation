@@ -31,7 +31,7 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 .hero--primary {
-  background-color: #0530ad;
+  background-color: #393939;
 }
 
 .header-github-link:before {
@@ -40,4 +40,22 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   display: flex;
   height: 24px;
   width: 24px;
+}
+
+/* Custom footer styling */
+footer[class*="footer--dark"] {
+  background-color: #393939 !important;
+}
+
+footer[class*="footer--dark"] .footer__links {
+  border-top-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Ensure footer works in both light and dark themes */
+[data-theme="light"] footer[class*="footer--dark"] {
+  background-color: #393939 !important;
+}
+
+[data-theme="dark"] footer[class*="footer--dark"] {
+  background-color: #393939 !important;
 }

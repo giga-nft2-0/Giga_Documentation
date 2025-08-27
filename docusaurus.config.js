@@ -10,8 +10,8 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
-  title: "Giga NFT-2.0",
-  tagline: " Decentralized School Database",
+  title: "Giga Blocks ",
+  tagline: " Decentralized School Directory Platform",
   markdown: {
     mermaid: true,
   },
@@ -130,42 +130,24 @@ const config = {
           },
         ],
       },
-      footer: {
-        style: "dark",
-        links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "Tutorial",
-                to: "/docs/intro",
-              },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Twitter",
-                href: "https://twitter.com/Gigaglobal",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "GitHub",
-                href: "https://github.com/giga-nft2-0",
-              },
-              {
-                label: "Website",
-                href: "https://giga.global/",
-              },
-            ],
-          },
-        ],
-        copyright: `| <a href="/privacy-policy">Privacy Policy</a> | <br/> © ${new Date().getFullYear()} Giga. All rights reserved. Developed by Rumsan.`,
+              footer: {
+          style: "dark",
+          copyright: `
+            <div style="text-align: center; margin-top: 2rem;">
+              <div style="margin-bottom: 1rem;">
+                <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.5rem; color: #fff; text-decoration: none; padding: 0.75rem 1rem; border-radius: 6px; background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.2); font-weight: 500; font-size: 0.9rem;">
+                  <span style="font-size: 1.2rem; margin-right: 0.25rem;">©</span>
+                  <span style="font-size: 1.2rem; margin-right: 0.25rem;">℗</span>
+                  CC BY 4.0
+                </a>
+              </div>
+              <div style="color: #fff; font-size: 0.9rem;">
+                © ${new Date().getFullYear()} Giga. All rights reserved. 
+                <br>
+                Developed by <a href="https://rumsan.com" target="_blank" rel="noopener noreferrer" style="color: #fff; text-decoration: underline;">Rumsan</a>
+              </div>
+            </div>
+          `,
       },
       prism: {
         theme: themes.github,
