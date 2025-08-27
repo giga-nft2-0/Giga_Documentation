@@ -20,8 +20,7 @@ function HomepageHeader() {
         </p>
         <p className="hero__description">
           <Translate>
-            Empowering education through blockchain technology. Connect schools, 
-            verify credentials, and build a transparent educational ecosystem.
+          We Are Building the World's Largest Decentralized School Database - Together
           </Translate>
         </p>
         <div className={styles.buttons}>
