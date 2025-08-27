@@ -34,12 +34,12 @@ Welcome to the official developer guide for **Giga Blocks** — the decentralize
 
 Giga Blocks is more than a directory — it’s a participatory Web3 movement. By combining open data, blockchain infrastructure, and public contribution, every school profile becomes a living digital asset. This approach raises awareness and supports the global mission to connect every school to the internet.
 
-## Github Repositories of Giga NFT 2.0
+## Github Repositories of Giga Blocks
 
-- [Giga NFT 2.0](https://github.com/giga-nft2-0/Giga_NFT_2.0)
-- [Giga NFT 2.0 - subgraph](https://github.com/giga-nft2-0/Giga_NFT_2.0-subgraph)
-- [Giga NFT 2.0 - contracts](https://github.com/giga-nft2-0/Giga_NFT_2.0-contracts)
-- [Giga NFT2.0 - documentation](https://github.com/giga-nft2-0/Giga_Documentation)
+- [Giga Blocks Backend](https://github.com/giga-nft2-0/Giga_NFT_2.0) *(Private Repository)*
+- [Giga Blocks Subgraph](https://github.com/giga-nft2-0/Giga_NFT_2.0-subgraph) *(Private Repository)*
+- [Giga Blocks Smart Contracts](https://github.com/giga-nft2-0/Giga_NFT_2.0-contracts) *(Private Repository)*
+- [Giga Blocks Documentation](https://github.com/giga-nft2-0/Giga_Documentation) *(Public Repository)*
 
 **Ready to get started?**  
 Explore the docs, contribute, and help us build a more connected world!

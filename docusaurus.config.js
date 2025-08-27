@@ -55,6 +55,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           docItemComponent: "@theme/ApiItem", // Derived from docusaurus-theme-openapi
           showLastUpdateTime: true,
+          //showLastUpdateAuthor: true,
           lastVersion: '2.0',
           versions: {
             current: {
@@ -86,18 +87,13 @@ const config = {
           src: "img/giga-blocks.png",
         },
         items: [
-          {
-            type: "doc",
-            docId: "intro",
-            position: "right",
-            label: "Docs",
-          },
+          
             {
             label: "API",
             position: "right",
             to: "/docs/category/giga",
           },
-          { to: "blog", label: "Releases", position: "right" },
+
           {
             to: "/help",
             position: "right",
