@@ -17,7 +17,7 @@ const config = {
   },
   themes: ['@docusaurus/theme-mermaid', 'docusaurus-theme-openapi-docs'],
   url: "https://docs.giga.rumsan.net",
-  baseUrl: "/",
+  baseUrl: "/docs",
   projectName: "giga-documentation", // Usually your repo name.
   organizationName: "Giga", // Usually your GitHub org/user name.
   onBrokenLinks: "warn", // Changed from "throw" to "warn" to help during development
@@ -51,7 +51,7 @@ const config = {
       ({
         docs: {
           path: 'docs',
-          routeBasePath: 'docs',
+          routeBasePath: '/',
           sidebarPath: require.resolve("./sidebars.js"),
           docItemComponent: "@theme/ApiItem", // Derived from docusaurus-theme-openapi
           showLastUpdateTime: true,
@@ -91,7 +91,7 @@ const config = {
             {
             label: "API",
             position: "right",
-            to: "/docs/category/giga",
+            to: "/category/giga",
           },
 
           {
