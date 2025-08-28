@@ -41,9 +41,8 @@ Deploying the Issuer Node is required for issuing Giga VCs.
 - **Schema Management**
   - Issuer node supports importing custom schemas.
   - Giga ID uses the **Giga schema type**, defining structure & data fields of Giga’s VCs.
-  - Example schema link: *(to be provided by Giga team)*
-
-
+  - Example schema, [click Here](https://tools.privado.id/schemas/638d2d89-5aa2-4fa6-8392-30824a0bd841) 
+  
 ## Verification Implementation
 
 Verification of Giga VCs is handled in the **Giga Backend**.

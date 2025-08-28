@@ -61,10 +61,7 @@ const config = {
             current: {
               label: '2.1 (Next)',
               path: 'next',
-            },
-            '2.0': {
-              label: '2.0',
-            },
+            }
           },
           editUrl: "https://github.com/giga-nft2-0/Giga_Documentation/edit/main/",
         },

@@ -11,7 +11,7 @@
     "swizzle": "docusaurus swizzle",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
-    "release": "docusaurus docs:version 2.0",
+    "release": "docusaurus docs:version",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "deploy": "docusaurus deploy",
