@@ -26,13 +26,13 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro"
+            to="/intro"
           >
             <Translate>Get Started</Translate>
           </Link>
           <Link
             className="button button--outline button--lg"
-            to="/docs/category/giga"
+            to="/category/giga"
             style={{ marginLeft: '1rem' }}
           >
             <Translate>View API</Translate>
